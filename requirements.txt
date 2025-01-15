@@ -1,0 +1,1 @@
+requests pyttsx3 speechrecognition bs4 gpt4all
