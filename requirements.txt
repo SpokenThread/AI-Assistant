@@ -1,1 +1,6 @@
-requests pyttsx3 speechrecognition bs4 gpt4all
+beautifulsoup4==4.12.3
+gpt4all==2.8.2
+PyAudio==0.2.14
+pyttsx3==2.98
+requests==2.32.3
+SpeechRecognition==3.14.0
