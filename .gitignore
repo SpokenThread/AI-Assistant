@@ -1,8 +1,15 @@
-﻿# This Git repository is rooted at the Windows home directory.
+# This Git repository is rooted at the Windows home directory.
 # Ignore everything by default so personal files, secrets, caches, reports,
 # generated artifacts, and tool state are not accidentally committed.
 *
 
-# Keep this allowlist intentionally tiny. Add specific project paths here only
-# when they are meant to be versioned in this repository.
+# Versioned project files.
 !.gitignore
+!README.md
+!requirements.txt
+!speech_recognition_ai.py
+!text_to_speech_ai.py
+
+# Python/tooling caches.
+/.mypy_cache/
+/__pycache__/
